@@ -38,3 +38,8 @@ The report can be found [here](report.pdf). The code is not available yet (hasn'
 <h1 align="center">
   <img src="images/summary-result.jpg" width=700>
 </h1> 
+
+# Further Works
+
+* Can also try BERTScore (recommended) and BLUE
+* Evaluate manually: fluency, coverage (key information), fact check - assume don’t know which summary is from machine / gold
