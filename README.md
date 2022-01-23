@@ -11,9 +11,30 @@ Extractive models are robust but not like human-written summaries. Abstractive m
 
 Therefore, in our project, we developed a 2-stage model for text summarization. It combines the ability to filter informative sentences of the extractive approach with the ability to paraphrase of the abstractive approach. Our best model achieves a ROUGE-L F1 score of 39.82, which outperforms the strong baseline.
 
-The report can be found [here](report.pdf). The code is not available now.
+The report can be found [here](report.pdf). The code is not available yet (haven't be cleaned).
 
 ## Model
 
+* GPT-2
+* BART
+* BERTSumEXT
+* BERTSumEXT + GPT-2
+* BERTSumEXT + BART
+
 ![](images/model.png) 
 
+## Results
+
+<h1 align="center">
+  <img src="images/rouge-all-model.jpg" width=400>
+</h1> 
+
+<h1 align="center">
+  <img src="images/rouge-bertsumext.jpg" width=300>
+</h1> 
+
+## Demo
+
+<h1 align="center">
+  <img src="images/summary-result.jpg" width=700>
+</h1> 
