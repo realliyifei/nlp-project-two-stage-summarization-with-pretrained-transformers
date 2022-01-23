@@ -11,7 +11,7 @@ Extractive models are robust but not like human-written summaries. Abstractive m
 
 Therefore, in our project, we developed a 2-stage model for text summarization. It combines the ability to filter informative sentences of the extractive approach with the ability to paraphrase of the abstractive approach. Our best model achieves a ROUGE-L F1 score of 39.82, which outperforms the strong baseline.
 
-The report can be found [here](report.pdf). The code is not available yet (haven't be cleaned).
+The report can be found [here](report.pdf). The code is not available yet (hasn't been cleaned).
 
 ## Model
 
